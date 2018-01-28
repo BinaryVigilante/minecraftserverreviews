@@ -1,0 +1,216 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+
+body { margin: 0; background-color:#313133; }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.leftColumn, .rightColumn { padding: 1.25em; }
+
+.leftColumn {
+    background-color:#131314;
+    /*background-color:#0C0C0D;*/
+    color: #fff;
+    border-top: 5px solid #000;
+    border-right: 5px solid #000;
+    border-left: 5px solid #000;
+}
+
+.rightColumn {
+    background-color:#313133;
+    border-top: 5px solid #000;
+    /*border-bottom: 5px solid #000;*/
+    border-right: 5px solid #000;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 47.5em ) {
+
+    .rightColumn {
+        margin-left: 18.7em;
+        min-height: 100%;
+    }
+
+    .leftColumn {
+        /*position:fixed;*/
+        float:left;
+        width: 18.7em;
+        min-height: 100%;
+        border-bottom: 5px solid #000;
+    }
+}
+
+hr.linebreak {
+    border:0;
+    height:1px;
+    /*background:orange;*/
+    background:white;
+    margin:25px 0;
+}
+
+/*STUFF FOR THE MENU*/
+
+.menu-button {
+    color:orange;
+    text-decoration: none;
+	font-family: sans-serif;
+    display:block;
+    padding:5px;
+    border:5px solid white;
+    border-radius: 5px;
+    /*background-color: #cb8600;*/
+    background-color:#313133;
+    /*width:75%;*/
+}
+
+.menu-button:hover {
+    /*color:#cb8600;*/
+    background-color: #131314;
+    color:#9C754A;
+    border:5px solid orange;
+    /*border:5px solid #cb8600;*/
+}
+
+fieldset {
+    border:5px solid white;
+}
+
+/*TEXT STUFF*/
+/*Remeber to maybe make another css with all text audiowide!*/
+
+.right-header-text {
+    font-family: sans-serif;
+    color:orange;
+}
+
+.menu-header-text {
+    font-family: sans-serif;
+    color:orange;
+}
+
+p {
+    font-family: sans-serif;
+    color:orange;
+}
+
+b {
+    font-family: sans-serif;
+    color:orange;
+}
+
+i {
+    font-family: sans-serif;
+    color:orange;
+}
+
+li {
+    color:orange;
+    font-family: sans-serif;
+}
+
+.text-input {
+    border:1px solid white;
+    border-radius:3px;
+    background-color: #131314;
+    color:orange;
+    font-family: sans-serif;
+    /*border-radius: 5px;*/
+    padding:5px;
+}
+
+.textarea {
+    border:1px solid white;
+    background-color: #131314;
+    color:orange;
+    font-family: sans-serif;
+    border-radius: 5px;
+    padding:5px;
+}
+
+.submit-input {
+    border:3px solid white;
+    background-color:#131314;
+    color:orange;
+    font-family: sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.submit-input:hover {
+    color:orange;
+    border:3px solid orange;
+    background-color:#313133;
+}
+
+.normal-links {
+/*    color:orange;*/
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.normal-links:hover {
+/*    color:white;*/
+    color:orange;
+}
+
+.blue-links {
+    color:orange;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.blue-links:hover {
+    color:white;
+}
+
+.episode-links {
+    color:orange;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.episode-links:hover {
+    color:white;
+    font-size: 25px;
+}
+
+.website-link-images {
+    border:2px solid white;
+}
+
+.download-links {
+
+}
+
+span {
+    color:white;
+}
+
+/*GRAPHIC STUFF*/
+.image {
+    width:175px;
+    height:100px;
+}
+
+.video-box {
+    text-align: center;
+}
+
+.video {
+    width:640px;
+    height:320px;
+}
