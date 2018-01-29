@@ -175,16 +175,16 @@ li {
     color:white;
 }
 
-.episode-links {
-    color:orange;
+.server-links {
+    color:white;
     text-decoration: none;
     font-weight: bold;
     font-family: sans-serif;
     font-size: 25px;
 }
 
-.episode-links:hover {
-    color:white;
+.server-links:hover {
+    color:orange;
     font-size: 25px;
 }
 
