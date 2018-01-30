@@ -200,10 +200,20 @@ span {
     color:white;
 }
 
+.server-title {
+	color:white;
+	font-size:35px;
+}
+
 /*GRAPHIC STUFF*/
 .image {
     width:175px;
     height:100px;
+}
+
+.star-image {
+    width:30px;
+    height:30px;
 }
 
 .video-box {
@@ -211,6 +221,7 @@ span {
 }
 
 .video {
-    width:640px;
-    height:320px;
+    width:240px;
+    height:120px;
+
 }
